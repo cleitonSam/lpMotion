@@ -107,7 +107,7 @@
     <script>
       function animateCount(element, start, end, duration) {
         let current = start;
-        const increment = Math.ceil((end - start) / (duration / 30));
+        const increment = Math.ceil((end - start) / (duration / 20));
         let reachedEnd = false;
   
         const timer = setInterval(() => {
@@ -138,7 +138,7 @@
           if (exploreTop < windowHeight) {
             // Reiniciar a animação do contador ao rolar a página
             clearInterval(timerId);
-            timerId = animateCount(countElement, 0, 11000, 3000);
+            timerId = animateCount(countElement, 1000, 11000, 3000); // Começa a contagem a partir de 1 mil
           }
         }
   
