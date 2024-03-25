@@ -5,7 +5,7 @@
   --primary-color-light: #1f2125;
   --primary-color-extra-light: #35373b;
   --secondary-color: #94c11f;
-  --secondary-color-dark: #94c11f;
+  --secondary-color-dark: #84a72c;
   --text-light: #d1d5db;
   --white: #ffffff;
   --max-width: 1200px;
@@ -45,15 +45,17 @@
 }
 
 .btn {
-  padding: 1rem 9rem; */
-  outline: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #84a72c; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
   border: none;
-  font-size: 2rem;
-  font-weight: 700;
-  color: white;
-  background-color: var(--secondary-color);
- 
-  border-radius: 12px;
+  border-radius: 5px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
