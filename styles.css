@@ -11,6 +11,11 @@
   --max-width: 1200px;
 }
 
+.placeholder {
+  height: 50px; /* Altura do contador para manter o layout */
+  visibility: hidden; /* Ocultar elemento placeholder */
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -676,6 +681,7 @@ nav {
   .header__content h1 {
     font-size: 4rem;
     line-height: 4rem;
+    margin-bottom: 35px 
   }
   .explore__header {
     flex-direction: column;
