@@ -646,7 +646,7 @@ nav {
 @media (width < 600px) {
 
   .btn{
-    font-size: 45px;
+    font-size: 35px;
   }
 
   .header__content h1 {
