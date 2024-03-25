@@ -683,6 +683,11 @@ nav {
     line-height: 4rem;
     margin-bottom: 35px 
   }
+
+  .header__content h1 span{
+    text-align: center;
+  }
+
   .explore__header {
     flex-direction: column;
   }
