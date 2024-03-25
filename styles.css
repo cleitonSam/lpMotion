@@ -666,8 +666,16 @@ nav {
     flex-direction: column;
   }
 
+  .review__content p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+  }
+
   .header__content h1 {
     font-size: 4rem;
+    line-height: 4rem;
   }
   .explore__header {
     flex-direction: column;
