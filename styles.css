@@ -130,7 +130,9 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
+  display: flex;
+    flex-direction: column;
 }
 
 .header__container::before {
@@ -151,15 +153,21 @@ nav {
   right: 0;
 }
 
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}  
+  
+
 .header__content h4 {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 600;
   color: white;
   align-items: center;
-    justify-content: center;
-    display: flex;
-    text-align: center;
+   
   
 }
 
