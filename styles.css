@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #111317;
+  --primary-color: #35373b;
   --primary-color-light: #1f2125;
   --primary-color-extra-light: #35373b;
   --secondary-color: #94c11f;
@@ -180,7 +180,7 @@ nav {
   margin-bottom: 1rem;
   font-size: 2rem;
   font-weight: 600;
-  color: white;
+  color: #94c11f;
   align-items: center;
   display: flex;
   align-items: center;
@@ -194,7 +194,7 @@ nav {
   font-size: 5rem;
   font-weight: 700;
   line-height: 6rem;
-  color: var(--white);
+  color: #94c11f;
   display: flex;
   flex-direction: column;
   align-items: center;
