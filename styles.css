@@ -69,6 +69,8 @@
 span{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  font-size: 60px;
+  color: #35373b;
 }
 
 .btn:hover {
@@ -194,7 +196,7 @@ nav {
   font-size: 5rem;
   font-weight: 700;
   line-height: 6rem;
-  color: #94c11f;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -631,6 +633,10 @@ nav {
     gap: 1rem;
   }
 
+  .btn{
+    font-size: 32px;
+  }
+
   .class__container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -655,7 +661,11 @@ nav {
 @media (width < 600px) {
 
   .btn{
-    font-size: 35px;
+    font-size: 25px;
+  }
+
+  span{
+    font-size: 40px !important;
   }
 
   .explore__card{
